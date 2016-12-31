@@ -1,0 +1,29 @@
+\contentsline {section}{\numberline {1}Chapter : INTRODUCTION}{2}{section.1}
+\contentsline {subsection}{\numberline {1.1}Aim / Objective}{2}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Existing System}{3}{subsection.1.2}
+\contentsline {section}{\numberline {2}Chapter: Propsed System}{4}{section.2}
+\contentsline {subsection}{\numberline {2.1}Why sets?}{4}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Introduction to BitVectors}{4}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Advantages of BitVector}{5}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Implementation details of Union ($\DOTSB \bigcup@ \slimits@ $) operation}{5}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Implementation details of Intersection $(\DOTSB \bigcap@ \slimits@ )$ operation}{6}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}Implementation details of Difference $(-)$operation}{6}{subsection.2.6}
+\contentsline {section}{\numberline {3}Chapter : System Design and Implementation}{7}{section.3}
+\contentsline {subsection}{\numberline {3.1}Tools and Technologies used}{7}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}Languages Used}{7}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}Tools Used}{7}{subsubsection.3.1.2}
+\contentsline {subsection}{\numberline {3.2}System Design}{7}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Defining PossbleValues of a Cell}{8}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}Basic Filling}{8}{subsubsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.3}Filling by Elimination}{8}{subsubsection.3.2.3}
+\contentsline {subsubsection}{\numberline {3.2.4}Filling by Row and column Analysis}{9}{subsubsection.3.2.4}
+\contentsline {subsection}{\numberline {3.3}System Implementation}{9}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}Algorithm}{10}{subsubsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.2}Snapshots}{13}{subsubsection.3.3.2}
+\contentsline {section}{\numberline {4}System Testing and Results}{15}{section.4}
+\contentsline {subsection}{\numberline {4.1}System Testing}{15}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Results}{15}{subsection.4.2}
+\contentsline {section}{\numberline {5}Conclusions and Furture work}{15}{section.5}
+\contentsline {subsection}{\numberline {5.1}Conclusions}{15}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Future work}{16}{subsection.5.2}
+\contentsline {section}{\numberline {6}References}{17}{section.6}
