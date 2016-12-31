@@ -1,18 +1,18 @@
 AUTHOR: Pradeep Kashyap Ramaswamy
 
-This project caomes with a GUI based Sudoku application.
+This project comes with a GUI based Sudoku application.
 
-Before running the application, make sure java and g++ (only if rebulding
+Before running the application, make sure java and g++ (g++ only if rebulding
 things) are installed.
 
 
-To run, compile and run Sudoku,
+To run Sudoku,
 
 ./Sudoku.sh
 
 Sudoku.java is the GUI generating file. SSolver.cpp is the main sudoku solver. Java program
 just takes in the result from the SSolver.out and uses it in the UI. An external
-command called sudoku is part of this repo. That command generates
+command called 'sudoku' (available with ubuntu repo) is part of this repo. That command generates
 the sudoku questions. Don't delete the executables. If executables not working,
 then do 'make' once and then run the Sudoku.sh script again. This should work.
 
