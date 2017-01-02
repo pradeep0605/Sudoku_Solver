@@ -19,3 +19,14 @@ then do 'make' once and then run the Sudoku.sh script again. This should work.
 
 Utlimately if nothing is working, you can sit and figureout the code or contact
 me at pradeep.kashyap0605@gmail.com
+
+With 'n' cells to be filled with dimention 'd' (generally 9, 9x9 Sudoku), 
+This algorithms runs with time ((n^2 + n) /2) * (3 + 3) *d  ==> O(n^2 * d)
+
+It's n^2 because, in worst case, We'll go through the entire Sudoku but solve only one cell per iteration of entire Sudoku.
+3*d for updaing the PossibleValue set in row, column and box. Another 3*d for doing row, column and box analysis
+to find out that this is the only cell which can attain a particular value. For e.g. Multiple cells (empty) can have multiple
+value in PossibleValues set. Though a cell has multiple values in PossibleValues set, it might be the only cell to have a 
+particular value. E.g., cell A has PossibleValue set = {5, 7, 9}, other cells in the row, column and box might have intersecting values like 
+{1, 3, 5}, {1, 5, 7}, but none of them have 9 in them. That means that only this cell can have that value 9. That's why, for performing this calculation,
+we need another 3*d (row, column and box).
